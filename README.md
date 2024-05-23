@@ -31,13 +31,13 @@ El sistema debe permitir ingresar: propietarios; barrio; ciudades; casas; depart
 * Para el ingreso de una **casa** se debe tomar en consideración el siguiente proceso:
 	* El propietario se debe obtener del archivo lospropietarios.dat a través de la identificación.
 	* La ciudad se debe obtener del archivo lasciudades.dat a través del nombre de la ciudad.
-	* El costo final es igual a la operación de número de metros * precio del metro cuadrado.
+	* El costo final es igual a la operación de número de metros * precio del metro cuadrado + 3000.
 
 * Todos los objetos de tipo departamento se deben ingresar y guardar en un archivo llamado departamentos.dat
 * Para el ingreso de un **departamento** se debe tomar en consideración lo siguiente:
 	* El propietario se debe obtener del archivo lospropietarios.dat a través de la identificación.
 	* El barrio se debe obtener del archivo losbarrios.dat a través del nombre del barrio.
-	* El costo final es igual al (número de metros * valor del metro cuadrado) + (valor alícuota mensual * 12).
+	* El costo final es igual al (número de metros * valor del metro cuadrado) + (valor alícuota mensual * 12) * 5.
 
 * Debe existir la posibilidad de listar los datos ingresados para:
 	* Propietarios
